@@ -1,0 +1,113 @@
+.header{
+  color:black;
+}
+
+.nav-pills > li.active > a, .nav > li > a:focus, .nav > li > a:hover,
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+  background-color: #484444;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+  color:white;
+}
+
+.nav-pills a{
+  margin-left, margin-right: 5px;
+  color:white;
+  height:100%;
+}
+.roboto{
+  font-family: 'Roboto',cursive;
+}
+.costado{
+  padding-top: 15px;
+  color: #a30712;
+  font-weight:bold;
+}
+.bold{
+  font-weight: bold;
+}
+footer{
+  font-size:10px;
+}
+.main-content h2{
+    color: #333;
+}
+.nav-pills li {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+nav{
+  margin-top:5px;
+  color: white;
+  background-color: #666;
+}
+.navbar{
+  margin-bottom:0px;
+}
+.little-margin-top{
+  margin-top:40px;
+}
+.content-img{
+  height:225px;
+  width:225px;
+}
+.wrapper{
+  background-color:#E6E7E9;
+}
+
+/* mis estilos brian */
+.login{
+  margin-top: 4em;
+  margin-bottom: 4em;
+  border-radius: 5px;
+  border:1px solid #aaa;
+  box-shadow:0 3px 7px rgba(0,0,0,.25);
+  font-family: 'Roboto',cursive;
+  font-size: 15px;
+}
+.div-form{
+  padding: 1em;
+  margin: 1em;
+}
+.btn-form{
+  margin: 1em;
+  background-color: #666;
+  color: white;
+  padding: 0.7em;
+  min-width: 30%;
+}
+.form-header{
+  background-color: #666;
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  
+}
+.row-main{
+  min-height: 540px;
+}
+.table-data{
+  border: 0.2em solid #aaa;
+  box-shadow:0 2px 7px rgba(0,0,0,.25);
+}
+.table-data thead, .add-item{
+  background-color: #666;
+  color: white;
+  font-family: 'Roboto',cursive;
+  font-size: 15px;
+}
+.main-title{
+  background-color: #999;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.add-item{
+  width: 20%;
+}
+.material-icons.white { 
+  color: white; 
+}

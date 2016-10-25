@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cartelera Virtual FI</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="imgs/logo-info.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <br> <!-- BAD SMELL -->
+
+      <header>
+        <div class="container-fluid header">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+              <a href="http://info.unlp.edu.ar/">
+                  <img src="imgs/logo_fi.png">
+              </a>
+            </div>
+            <div class="col-md-4 costado">
+
+                <!-- Costado del logo -->
+                <h2 class="roboto">CARTELERA VIRTUAL</h2>
+                <h5 class="roboto">Bievenido, Fermín</h5>
+              </div>
+            </div>
+          </div>
+      </header>
+      <nav>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">INICIO</a></li>
+                    <li role="presentation"><a href="login.html">INICIAR SESIÓN</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          VER CARTELERAS <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li role="presentation"><a href="#">Años</a></li>
+                          <li role="presentation"><a href="#">Eventos</a></li>
+                          <li role="presentation"><a href="#">Ofertas laborales</a></li>
+                        </ul>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+      <div class="wrapper">
+      <div class="container main-content">
+        <div class="row row-main">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <section class="login">
+              <div class="form-header">
+                <h1>Iniciar sesi&oacute;n</h1>
+              </div>
+              <form class="form-horizontal">
+                <div class="div-form">
+                  <label for="usuario" class="col-sm-2 control-label"><i class="material-icons">person</i></label>
+                  <div class="col-sm-9 col-sm-offset-1">
+                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su usuario" required="required">
+                  </div>
+                </div>
+                <div class="div-form">
+                  <label for="password" class="col-sm-2 control-label"><i class="material-icons">lock</i></label>
+                  <div class="col-sm-9 col-sm-offset-1">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña" required="required">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-default btn-form">Ingresar</button>
+              </form>
+            </section>
+          </div>
+        </div>
+
+        <footer>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <p> ------------- </p>
+              <p>&copy Todos los derechos reservados. Minetto, Céspedes.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

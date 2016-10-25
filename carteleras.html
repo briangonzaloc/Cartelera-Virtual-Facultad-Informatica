@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cartelera Virtual FI</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="imgs/logo-info.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <br> <!-- BAD SMELL -->
+
+      <header>
+        <div class="container-fluid header">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+              <a href="http://info.unlp.edu.ar/">
+                  <img src="imgs/logo_fi.png">
+              </a>
+            </div>
+            <div class="col-md-4 costado">
+
+                <!-- Costado del logo -->
+                <h2 class="roboto">CARTELERA VIRTUAL</h2>
+                <h5 class="roboto">Bievenido, Fermín</h5>
+              </div>
+            </div>
+          </div>
+      </header>
+      <nav>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">INICIO</a></li>
+                    <li role="presentation"><a href="login.html">INICIAR SESIÓN</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          VER CARTELERAS <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li role="presentation"><a href="#">Años</a></li>
+                          <li role="presentation"><a href="#">Eventos</a></li>
+                          <li role="presentation"><a href="#">Ofertas laborales</a></li>
+                        </ul>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 main-title">
+              <h1 class="text-center roboto">Carteleras</h1>
+            </div>
+          </div>
+        </div>
+      <div class="container main-content">
+        <div class="row row-main">
+          <div class="col-md-8 col-md-offset-2">
+            <section>
+              <a href="agregarCartelera.html" class="btn btn-primary">Agregar cartelera <i class="material-icons white">add_circle</i></a>
+              <div class="table-responsive">
+                <table class="table table-striped table-data ">
+                  <thead>
+                    <th>Nombre de cartelera</th>
+                    <th>Descripci&oacute;n</th>
+                    <th>Fecha de alta</th>
+                    <th>Operaciones</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Primer año</td>
+                      <td>Esta cartelera contiene las publicaciones de las materias de primer año</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="modificarCartelera.html"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Segundo año</td>
+                      <td>Esta cartelera contiene las publicaciones de las materias de segundo año</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Tercer año</td>
+                      <td>Esta cartelera contiene las publicaciones de las materias de tercer año</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Cuarto año</td>
+                      <td>Esta cartelera contiene las publicaciones de las materias de cuarto año</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Quinto año</td>
+                      <td>Esta cartelera contiene las publicaciones de las materias de quinto año</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Oferta laboral</td>
+                      <td>Esta cartelera contiene las publicaciones de las ofertas laborales de distintas empresas</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Eventos</td>
+                      <td>Esta cartelera contiene las publicaciones de los eventos que se realizan en la facultad</td>
+                      <td>01/02/2016</td>
+                      <td>
+                        <a href="#"><i class="material-icons">description</i><a>
+                        <a href="#"><i class="material-icons">create</i><a>
+                        <a href="#"><i class="material-icons">delete_forever</i><a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <footer>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <p> ------------- </p>
+              <p>&copy Todos los derechos reservados. Minetto, Céspedes.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
